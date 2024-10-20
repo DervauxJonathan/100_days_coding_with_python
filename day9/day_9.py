@@ -22,7 +22,7 @@ while not finish:
     bid = int(input("What's your bid?: $"))
     bid_list[name] = bid
     other_bidders = input("Are there any other bidders? Type 'yes or 'no'.\n").lower()
-    print(bid_list)
+
     if other_bidders not in ["yes", "no"]:
         other_bidders = input("Are there any other bidders? Type 'yes or 'no'.\n").lower()
     elif other_bidders == "yes":
